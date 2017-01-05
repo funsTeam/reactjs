@@ -1,0 +1,39 @@
+@import '_fn';
+html,body,.container{
+    height: 100%;
+    background-color: #f8f8f8;
+}
+body{
+    font-family: $baseFont;
+    max-width: $maxWidth;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-size: $baseFontSize;
+}
+ul,li{
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+a{
+    text-decoration:none;
+}
+
+.clearfix:after {
+        clear: both;
+        content: '.';
+        display: block;
+        height: 0;
+        line-height: 0;
+        overflow: hidden;
+}
+*,:after,:before{
+    margin:0;
+    padding:0;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+input,textarea{-webkit-appearance:none;border-radius: 0}
